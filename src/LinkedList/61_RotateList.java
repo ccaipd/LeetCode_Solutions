@@ -10,7 +10,7 @@ package LinkedList;
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class RotateList {
+class Solution {
     public ListNode rotateRight(ListNode head, int k) {
         if(head == null) return null;
 
