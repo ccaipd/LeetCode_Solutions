@@ -1,6 +1,8 @@
 package Math;
 
 class Solution {
+    // Time: O(logN)
+    // Space: O(logN)
     public double myPow(double x, int n) {
         if(n == 0 || x == 1) return 1;
 
